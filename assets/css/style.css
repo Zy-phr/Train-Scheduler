@@ -10,7 +10,7 @@ h1,h2 {
 
 .container {
     background: rgba(22,22,22,0.8);
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 20px;
     border: 2px solid #b7c5cbd6;
     padding: 0 40px 20px 40px;
@@ -19,6 +19,7 @@ h1,h2 {
 .jumbotron {
     background: none;
     text-shadow: 2px 2px 0px #b7c5cbd6;
+    margin: -30px;
 }
 
 .btn {
@@ -35,10 +36,13 @@ h1,h2 {
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     vertical-align: middle;
+    border-bottom: 1px solid #b7c5cbd6;
 }
 
 .table>thead {
     color: white;
+    border-bottom: 2px solid #b7c5cbd6;
+
 }
 
 .current-time {
@@ -58,7 +62,7 @@ h1,h2 {
     font-size: 24px;
     letter-spacing: 2px;
     color: rgb(164, 164, 164);
-    border-bottom: 1px solid #b7c5cbd6 ;
+    border-bottom: 2px solid #b7c5cbd6;
     margin: 5px 0;
     padding: 0 0 10px 0;
     text-shadow: 2px 2px 0px #101010d6;
