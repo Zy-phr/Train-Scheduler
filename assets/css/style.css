@@ -10,7 +10,7 @@ h1,h2 {
 
 .container {
     background: rgba(22,22,22,0.8);
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 20px;
     border: 2px solid #b7c5cbd6;
     padding: 0 40px 20px 40px;
@@ -19,7 +19,7 @@ h1,h2 {
 .jumbotron {
     background: none;
     text-shadow: 2px 2px 0px #b7c5cbd6;
-    margin: -30px;
+    margin: -20px;
 }
 
 .btn {
